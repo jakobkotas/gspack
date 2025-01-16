@@ -13,7 +13,7 @@ if [[ -f "/autograder/source/requirements.txt" ]]; then
     python3.10 -m pip install -r /autograder/source/requirements.txt
 fi
 
-git clone https://github.com/aksholokhov/gspack
+git clone https://github.com/jakobkotas/gspack
 cd gspack || exit
 python3.10 setup.py install
 cd .. || exit
